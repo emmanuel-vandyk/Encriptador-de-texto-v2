@@ -1,0 +1,224 @@
+.encriptador {
+  background-color: #f3f5fc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+  
+.encriptador .div {
+  background-color: var(--light-bluelight-blue-100);
+  width: 100%;
+  height: 1024px;
+}
+
+.encriptador .overlap-group {
+  position: absolute;
+  width: 400px;
+  height: 90vh;
+  top: 40px;
+  left: 70%;
+  background-color: var(--white);
+  border-radius: 32px;
+  box-shadow: var(--shadow);
+}
+
+.encriptador .overlap-group-2 {
+  position: absolute;
+  width: 400px;
+  height: 90vh;
+  top: 40px;
+  left: 70%;
+  background-color: var(--white);
+  border-radius: 32px;
+  box-shadow: var(--shadow);
+  align-items: center;
+}
+
+.encriptador .munieco {
+  position: absolute;
+  width: 336px;
+  height: 304px;
+  top: 100px;
+  left: 32px;
+}
+
+.encriptador .frame {
+  display: flex;
+  flex-direction: column;
+  width: 336px;
+  align-items: flex-start;
+  gap: 16px;
+  position: absolute;
+  top: 460px;
+  left: 32px;
+}
+
+.encriptador .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--graygray-500);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.8px;
+}
+
+.encriptador .p {
+  position: relative;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--graygray-400);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.encriptador .texto-encriptado {
+  padding: 70% 0;
+  width: 400px;
+  height: 25%;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.encriptador .text-wrapper-2 {
+  position: absolute;
+  width: 577px;
+  top: 167px;
+  left: 240px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--dark-bluedark-blue-300);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.encriptador .frame-2 {
+  display: flex;
+  width: 680px;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  top: 885px;
+  left: 240px;
+}
+
+.encriptador .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 328px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 24px;
+  position: relative;
+  background-color: var(--dark-bluedark-blue-300);
+  border-radius: 24px;
+}
+
+.encriptador .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.encriptador .button-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 328px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 24px;
+  position: relative;
+  background-color: #d8dfe8;
+  border-radius: 24px;
+  border: 1px solid;
+  border-color: var(--dark-bluedark-blue-300);
+}
+
+.encriptador .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--dark-bluedark-blue-300);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.encriptador .button-copiar {
+  width: 21rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid var(--Dark-blue-dark-blue-300, #0A3871);
+  background-color: transparent;
+  margin: 0 2em;
+  bottom: 5%;
+}
+
+.encriptador .p-copiar {
+  color: var(--Dark-blue-dark-blue-300, #0A3871);
+}
+
+
+.encriptador .frame-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 75%;
+  left: 240px;
+}
+
+.encriptador .bi-exclamation {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+  
+.encriptador .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  opacity: 0.8;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--graygray-400);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+  
+.encriptador .logo {
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  top: 40px;
+  left: 40px;
+}
+
+.encriptador .frame-2 {
+  top: 80%;
+}
