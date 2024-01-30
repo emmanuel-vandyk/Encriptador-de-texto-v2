@@ -24,3 +24,5 @@ La página debe tener campos para inserción del texto que será encriptado o de
 
 <h3>Extras:</h3>
 Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+
+Github Pages: https://emmanuel-vandyk.github.io/Encriptador-de-texto-v2/
